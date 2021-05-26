@@ -6,8 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TC_TB extends Generic
-{
-
+{ 
 
 	@Test(priority =1)
 	public void validLogin() throws InterruptedException  
