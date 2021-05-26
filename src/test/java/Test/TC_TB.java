@@ -9,8 +9,10 @@ public class TC_TB extends Generic
 { 
 
 	@Test(priority =1)
-	public void validLogin() throws InterruptedException  
+	public
+	void validLogin() throws InterruptedException  
 	{
+		
 		// to Check the Login successfully or not
 		Thread.sleep(5000);
 		Assert.assertEquals(d.getTitle(), "Turia");
