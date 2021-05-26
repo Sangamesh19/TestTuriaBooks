@@ -13,7 +13,7 @@ public class TC_TB extends Generic
 	{
 		// to Check the Login successfully or not
 		Thread.sleep(5000);
-		Assert.assertEquals(d.getTitle(), "Turi");
+		Assert.assertEquals(d.getTitle(), "Turia");
 	} 
  			
 	@Test(priority =2,dependsOnMethods={"validLogin"})
