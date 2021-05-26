@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-26T14:51:33 IST" name="Default suite" finished-at="2021-05-26T14:53:29 IST" duration-ms="116128">
+    <groups>
+    </groups>
+    <test started-at="2021-05-26T14:51:33 IST" name="Default test" finished-at="2021-05-26T14:53:29 IST" duration-ms="116128">
+      <class name="Test.TC_TB">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:51:33 IST" name="openApp" finished-at="2021-05-26T14:52:51 IST" duration-ms="78312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="validLogin()[pri:1, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:52:51 IST" name="validLogin" finished-at="2021-05-26T14:53:01 IST" duration-ms="10011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method signature="check_Navigating_to_Book_Item_Page()[pri:2, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:53:01 IST" name="check_Navigating_to_Book_Item_Page" finished-at="2021-05-26T14:53:12 IST" depends-on-methods="Test.TC_TB.validLogin" duration-ms="10828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Navigating_to_Book_Item_Page -->
+        <test-method signature="isList_isEmpty()[pri:3, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:53:12 IST" name="isList_isEmpty" finished-at="2021-05-26T14:53:15 IST" depends-on-methods="Test.TC_TB.check_Navigating_to_Book_Item_Page" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isList_isEmpty -->
+        <test-method signature="to_Check_Check_Box_isSelected_First_Item()[pri:4, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:53:15 IST" name="to_Check_Check_Box_isSelected_First_Item" finished-at="2021-05-26T14:53:15 IST" depends-on-methods="Test.TC_TB.isList_isEmpty" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Check_Check_Box_isSelected_First_Item -->
+        <test-method signature="to_Check_Check_Box_isEnabled_First_Item()[pri:5, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:53:15 IST" name="to_Check_Check_Box_isEnabled_First_Item" finished-at="2021-05-26T14:53:15 IST" depends-on-methods="Test.TC_TB.isList_isEmpty" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Check_Check_Box_isEnabled_First_Item -->
+        <test-method signature="to_Check_Check_Box_isClickable_First_Item()[pri:6, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:53:15 IST" name="to_Check_Check_Box_isClickable_First_Item" finished-at="2021-05-26T14:53:16 IST" depends-on-methods="Test.TC_TB.isList_isEmpty" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Check_Check_Box_isClickable_First_Item -->
+        <test-method signature="to_More_Option_isDisplayed_First_Item()[pri:7, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:53:16 IST" name="to_More_Option_isDisplayed_First_Item" finished-at="2021-05-26T14:53:16 IST" depends-on-methods="Test.TC_TB.isList_isEmpty" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_More_Option_isDisplayed_First_Item -->
+        <test-method signature="to_Check_More_Option_isEnabled_First_Item()[pri:8, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:53:16 IST" name="to_Check_More_Option_isEnabled_First_Item" finished-at="2021-05-26T14:53:16 IST" depends-on-methods="Test.TC_TB.isList_isEmpty" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Check_More_Option_isEnabled_First_Item -->
+        <test-method signature="to_Check_Mark_as_Inactive_isDisplyed_First_Item()[pri:9, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:53:16 IST" name="to_Check_Mark_as_Inactive_isDisplyed_First_Item" finished-at="2021-05-26T14:53:16 IST" depends-on-methods="Test.TC_TB.isList_isEmpty" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Check_Mark_as_Inactive_isDisplyed_First_Item -->
+        <test-method signature="to_Check_in_Inactive_Services()[pri:11, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:53:16 IST" name="to_Check_in_Inactive_Services" finished-at="2021-05-26T14:53:18 IST" depends-on-methods="Test.TC_TB.isList_isEmpty" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Check_in_Inactive_Services -->
+        <test-method is-config="true" signature="appLogOut()[pri:0, instance:Test.TC_TB@78123e82]" started-at="2021-05-26T14:53:18 IST" name="appLogOut" finished-at="2021-05-26T14:53:29 IST" duration-ms="11112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogOut -->
+      </class> <!-- Test.TC_TB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
